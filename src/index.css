@@ -13,3 +13,40 @@
   --font-pixel: "Pixelify Sans", sans-serif;
   --font-display: "Montserrat" , sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(
+    circle at 50% -20%,
+    #4a176b 0,
+    var(--color-paper) 44rem
+  );
+  color: var(--color-ink);
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.grid-noise {
+  background-image:
+    linear-gradient(rgba(0, 229, 213, 0.17) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 213, 0.17) 1px, transparent 1px),
+    linear-gradient(180deg, #3b155d 0%, #110522 68%);
+  background-size:
+    34px 34px,
+    34px 34px,
+    auto;
+}
+.pixel-shadow {
+  box-shadow:
+    5px 5px 0 var(--color-arcade),
+    0 0 25px rgba(255, 58, 167, 0.45);
+}

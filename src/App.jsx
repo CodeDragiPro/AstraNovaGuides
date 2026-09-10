@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
 
-function App() {
+import Home from './pages/Home'
+import NavBar from './Components/NavBar'
 
-  return (
-    <>
-     <h1>APP</h1>
-    </>
-  )
+
+
+export default function App() {
+  return <div className="min-h-screen">
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+
+    
+    </Routes>
+  
+  </div>
 }
-
-export default App

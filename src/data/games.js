@@ -4,7 +4,7 @@ export const pokemonBlue = {
   console: "Game Boy",
   year: "1996",
   image: "🔵",
-  cover: 'https://www.gamecash.fr/thumbnail-400-450/pokemon-bleu-gb-e106882.jpg',
+  cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pi7.jpg',
   difficulty: "7,4",
   votes: 128,
   completion: "18–25 h",

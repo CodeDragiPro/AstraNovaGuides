@@ -5,7 +5,7 @@ import SearchBar from "../components/SearchBar";
 export default function Hero() {
   return (
     <>
-      <section className="grid-noise overflow-hidden border-b-2 border-arcade">
+      <section className=" overflow-hidden border-b-2 border-arcade">
         <div className="mx-auto px-5 py-20 sm:px-8 md:py-28">
           <p className="mx-auto mb-5 flex w-fit items-center gap-2 border-2 border-sun bg-sun px-3 py-1 text-xs font-black uppercase tracking-widest text-paper text-center">
             <Gamepad2 size={20} /> Communauté Francophone de Chasseur de Succès Rétro

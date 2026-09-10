@@ -4,10 +4,8 @@ import { LogIn, Menu, Trophy, X } from "lucide-react";
 
 const navItems = [
   { label: "Accueil", to: "/" },
-  { label: "Jeux", to: "/jeux" },
-  { label: "Consoles", to: "/jeux" },
-  { label: "Guides récents", to: "/jeux" },
-  { label: "Musée Rétro", to: "/musee" },
+  { label: "Guides", to: "/guides" },
+  { label: "Musée", to: "/musee" },
 ];
 
 export default function NavBar() {
@@ -43,7 +41,7 @@ export default function NavBar() {
             </NavLink>
           ))}
           <Link
-            to="/connexion"
+            to="/login"
             className="rounded-full ml-3 flex items-center gap-2 bg-arcade px-4 py-2 text-sm font-black text-paper"
           >
             <LogIn size={16} /> Connexion
